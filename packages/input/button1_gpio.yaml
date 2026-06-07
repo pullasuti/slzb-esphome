@@ -4,3 +4,4 @@ binary_sensor:
       number: ${pin_btn1}
       mode: INPUT_PULLUP
       inverted: ${btn1_inverted}
+      ignore_strapping_warning: true

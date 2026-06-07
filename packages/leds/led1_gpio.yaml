@@ -4,3 +4,4 @@ switch:
       number: ${pin_led1}
       mode: OUTPUT
       inverted: ${led1_inverted}
+      ignore_strapping_warning: true

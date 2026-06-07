@@ -1,4 +1,6 @@
 remote_receiver:
-  pin: ${pin_ir_rx}
+  pin:
+    number: ${pin_ir_rx}
+    ignore_strapping_warning: true
   rmt_symbols: 96
   dump: all
